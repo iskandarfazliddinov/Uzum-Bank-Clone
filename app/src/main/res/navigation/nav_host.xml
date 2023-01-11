@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_host"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.myapelsin.fragments.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_paymentFragment"
+            app:destination="@id/paymentFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/transferFragment"
+        android:name="com.example.myapelsin.fragments.TransferFragment"
+        android:label="fragment_transfer"
+        tools:layout="@layout/fragment_transfer" />
+    <fragment
+        android:id="@+id/paymentFragment"
+        android:name="com.example.myapelsin.fragments.PaymentFragment"
+        android:label="fragment_payment"
+        tools:layout="@layout/fragment_payment" />
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="com.example.myapelsin.fragments.ChatFragment"
+        android:label="fragment_chat"
+        tools:layout="@layout/fragment_chat" />
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.example.myapelsin.fragments.MenuFragment"
+        android:label="fragment_menu"
+        tools:layout="@layout/fragment_menu" />
+    <activity
+        android:id="@+id/QRActivity"
+        android:name="com.example.myapelsin.activity.QRActivity"
+        android:label="activity_qractivity"
+        tools:layout="@layout/activity_qractivity" />
+</navigation>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mainFragment"
+        android:title="Asosiy"
+        android:icon="@drawable/ic_baseline_power_settings_new_24"/>
+    <item
+        android:id="@+id/transferFragment"
+        android:title="O`tkazma"
+        android:icon="@drawable/ic_baseline_transform_24"/>
+    <item
+        android:id="@+id/paymentFragment"
+        android:title="To`lov"
+        android:icon="@drawable/ic_baseline_payment_24"/>
+    <item
+        android:id="@+id/chatFragment"
+        android:title="Chat"
+        android:icon="@drawable/ic_baseline_chat_24"/>
+    <item
+        android:id="@+id/menuFragment"
+        android:title="Menyu"
+        android:icon="@drawable/ic_baseline_menu_24"/>
+</menu>
